@@ -7,9 +7,9 @@ import "@nomicfoundation/hardhat-verify";
 dotenv.config();
 
 // 配置代理（关键）
-const proxy = "http://127.0.0.1:7890";
-process.env.HTTP_PROXY = proxy;
-process.env.HTTPS_PROXY = proxy;
+// const proxy = "http://127.0.0.1:7890";
+// process.env.HTTP_PROXY = proxy;
+// process.env.HTTPS_PROXY = proxy;
 
 export default defineConfig({
   plugins: [hardhatToolboxMochaEthersPlugin],
